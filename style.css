@@ -275,6 +275,13 @@ i {
     border-radius: 12px;
     font-weight: 700;
     text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.project a:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
 }
 
 .pro-img {
@@ -334,7 +341,7 @@ i {
     list-style: none;
 }
 
-.service-name li a{
+.service-name li a {
     text-decoration: none;
     color: #37353e;
 }
